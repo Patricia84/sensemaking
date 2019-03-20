@@ -1,11 +1,7 @@
+var flatten = require('array-flatten')
 
 var getWordsFlat = function(words){
-
-	// -----------------------------------
-	//  YOUR CODE
-	//  Flatten the 2D words array using reduce
-	//  Return flat words array
-	// -----------------------------------	
+	var wordsFlat = flatten(words)
 
 	return wordsFlat;
 }
